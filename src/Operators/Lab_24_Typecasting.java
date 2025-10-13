@@ -6,7 +6,7 @@ public class Lab_24_Typecasting {
 		int course = 100;
 		float GST = 18.45f;
 		int total = course + (int)GST ;  // narrow explicit not possible
-		float total1 = course + GST ; //implicit automatically 
+		float total1 = course + GST ; //widening implicit automatically 
 		System.out.println(total);
 		System.out.println(total1);
 	}
